@@ -1,0 +1,33 @@
+body{
+text-align: center;
+background-image: url(mario.jpg);
+background-size: cover;
+
+}
+#board{
+    
+    height: 450px;
+    width:450px;
+    background: url(soil.png);
+    background-size: cover;
+    display: flex;
+ flex-wrap: wrap;
+ margin-left: 32%;
+}
+#board div{
+height: 150px;
+width: 150px;
+background-image: url(pipe.png);
+background-size: cover;
+ 
+
+}
+#board div img{
+    width: 75px;
+    height: 90px;
+    user-select: none;
+    draggabe:false;
+    -webkit-user-drag:none;
+}
+
+
